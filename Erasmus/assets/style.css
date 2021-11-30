@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navigation{
+    display: flex;
+    background-color: rgb(212, 208, 164);
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 0;
+    width: 900;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	width:100px;
+    color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.menu{
+	list-style:none;
+	display:flex;
+}
+
+.menu-items {
+    display: flex;
+    list-style-type: none;
+}
+.link{
+	color:cadetblue;
+	text-decoration:none;
+	font: style 100px;
+	padding: 50px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
